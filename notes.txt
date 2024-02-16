@@ -1,25 +1,2 @@
-Sure! CSS (Cascading Style Sheets) is used to control the design and layout of web pages. The line "*:before,*:after" is a part of CSS code that tells the browser to do something special before and after certain elements on a web page. Let me break it down for you:
-
-1. The Asterisk (*) is a special symbol in CSS that is used as a wildcard. It means "apply this to all elements on the web page."
-
-2. ":before" and ":after" are pseudo-elements. They're like imaginary parts of an element, and you can use CSS to style them separately from the main element.
-
-So, when you put "*:before,*:after" together, it's telling the browser to apply some CSS styles to the "before" and "after" pseudo-elements of all elements on the web page.
-
-For example, you can use this to add extra content, like icons or text, before or after an element, or to style them in a special way. It's a way to get creative with the design of your webpage and add extra elements without altering the actual content in your HTML.
-
-Here's a simple example:
-
-```css
-*:before {
-  content: "🌟"; /* This adds a star before every element on the page */
-}
-
-*:after {
-  content: "🌟"; /* This adds a star after every element on the page */
-}
-```
-
-In this example, every element on the web page will have a star symbol added before and after it, making it look more interesting. You can replace the content with anything you like, and you can use other CSS properties to control the size, color, and position of these added elements.
-
-So, it's a handy trick in CSS to enhance the design of your web page!
+Sample Glassmorphism form 
+Done using Pure CSS and semantic HTML5
